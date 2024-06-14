@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.new-rocker-regular {
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+:root{
+    font-size: 62.5%;
+}
+body{
+    background-color: black;
+    font-size: 1.4rem;
+}
+.content{
+    display: grid;
+    grid-template-areas: 
+    ". . . ."
+    ". hero . form"
+    ". hero . form"
+    ". . . ."
+    ;
+    gap: 8.5rem;
+}
+main{
+    grid-area: form;
+}
+aside{
+    grid-area: hero;
+}
+aside{
+    color: white;
+    width: 40rem;
+}
+aside img{
+    margin-top: -8rem;
+}
+aside h1{
+    font-family: 'New Rocker', 'roboto';
+    font-size: 6.4rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+main{
+    width: 60.3rem;
+    height: 52.1rem;
+    border: 1px solid rgba(228, 227, 227, 0.404);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    padding: 2.4rem;
+    border-radius: 1.2rem;
+}
+main h2{
+    color: aliceblue;
+    font-size: 3.6rem;
+    max-width: 50rem;
+}  
+main h2 span{
+    color: firebrick;
+}
+main a{
+    color: white;
+
+}
+main .actions{
+    display: flex;
+    flex-flow: column wrap;
+}
+main .actions a{
+    background-color: firebrick;
+    height: 5.5rem;
+    text-decoration: none;
+    font-size: 2.4rem;
+    border-radius: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5.4rem;
+}
+main .actions a + a{
+    background-color: ghostwhite;
+    color: black;
+    margin-top: 4.8rem;
+}
+main footer{
+    margin-top: 8rem;
+    color: white;
+    text-align: center;
+}
+main footer p{
+    font-size: 1.6rem;
+}
+main footer a{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    display: block;
+    text-align: center;
+}
